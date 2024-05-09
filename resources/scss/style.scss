@@ -1,0 +1,34 @@
+@import "./header.scss";
+@import "./footer.scss";
+@import "./main.scss";
+
+/*@import "./bootstrap/scss/bootstrap.scss";*/
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:99%;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 100%;
+    background-size: cover;
+}
+
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+button{
+    background: none;
+    border: none;
+}

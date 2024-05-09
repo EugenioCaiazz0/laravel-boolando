@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: smaller;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.bottom-menu{
+    height: 70px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.horizontal-nav{
+    display: flex;
+    flex-direction: row;
+}
